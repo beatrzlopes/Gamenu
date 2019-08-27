@@ -158,8 +158,8 @@ p {
 
 .conteiner{
    border: 1px solid black;
-   max-width: 30%;
+   max-width: 90%;
    text-align: center;
    background: white;
-   padding: 5px;
+   padding: 60px;
 }
