@@ -161,8 +161,8 @@ p {
    max-width: 90%;
    text-align: justify;
    background: white;
-   padding: 100px;
-   padding-top: 0%
+   
+   padding-left: 150px;
    box-sizing: border-box;
 }
 
