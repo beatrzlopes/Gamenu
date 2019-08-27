@@ -162,11 +162,11 @@ p {
    text-align: center;
    background: white;
    
-   font-size: 18px;
+   font-size: 12px;
    padding-left: 150px;
    box-sizing: border-box;
 }
 
 #sympla-widget-626655{
-   box-align: center;
+   align-items: center;
 }
