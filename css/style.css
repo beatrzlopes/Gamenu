@@ -159,9 +159,8 @@ p {
 .conteiner{
    
    max-width: 90%;
-   text-align: center;
+   text-align: justify;
    background: white;
-   padding: 100px;
    padding-top: 0%
    box-sizing: border-box;
 }
