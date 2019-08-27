@@ -161,11 +161,11 @@ p {
    max-width: 90%;
    text-align: center;
    background: white;
-   
+   font-family: 'Open Sans', sans-serif;
    padding-left: 150px;
    box-sizing: border-box;
 }
 
 #sympla-widget-626655{
-   align-self: center;
+   box-align: center;
 }
