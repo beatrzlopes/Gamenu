@@ -155,3 +155,11 @@ p {
    border-radius:8px;
    float:right;
 }
+
+.conteiner{
+   border: 1px solid black;
+   max-width: 30%;
+   text-align: center;
+   background: white;
+   padding: 5px;
+}
