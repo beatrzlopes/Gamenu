@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146047385-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag('js', new Date());
+  gtag('config', 'UA-146047385-1');
+</script>
+  
+  <title>Mercador Digital</title>
+
+  <meta charset="utf-8">
+  <meta name="description" content="Uma das dúvidas mais frequentes para quem abre seu primeiro negócio é sobre compras por atacado. Entenda um pouco mais!">
+  <meta name="keywords" content="negócio,compras,atacado">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+<div class="modal fade" id="modalNewsletter" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog  modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Assine nossa newsletter!</h5>
+
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <div class="modal-body">
+          <form name="news" action="" class="" netlify>
+            <div class="form-group">
+              <label class="sr-only">Nome Completo</label>
+
+              <input type="text" name="name" placeholder="Nome Completo" class="form-control">
+            </div>
+
+            <div class="form-group">
+              <label class="sr-only">Email</label>
+
+              <input type="email" name="email" placeholder="Seu email" class="form-control">
+            </div>
+
+            <button type="submit" class="btn btn-success"  data-toggle="modal" data-target="#formConfirmation">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="newsConfirmation" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog  modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Envio Confirmado</h5>
+
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <div class="modal-body">
+          <p>Obrigado por se cadastrar na nossa newsletter!</p>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+<div class="p-0 container-fluid">
+  <a href="index">
+   <img src="../img/logo.jpg" class="img-fluid">
+  </a>
+</div>
+
+ <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #2a75b6;">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index">Início</a>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Artigos
+        </a>
+
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="comida-vegana-voce-precisa-ter-no-seu-boteco">Produtos Veganos</a>
+
+          <a class="dropdown-item" href="os-3-maiores-erros-na-hora-escolher-um-fornecedor-para-seu-restaurante">Fornecedor Digital</a>
+
+          <a class="dropdown-item" href="7-ferramentas-digitais-que-vao-turbinar-o-seu-negocio">Ferramentas Digitais</a>
+
+          <a class="dropdown-item" href="você-tem-perdido-clientes-para-as-grandes-redes">Luta pelo Mercado</a>
+
+          <a class="dropdown-item" href="ideias-criativas-de-marketing-para-restaurantes">Marketing para Restaurantes</a>
+          
+                    <a class="dropdown-item active" href="montei-meu-negocio-e-agora-o-que-significa-fazer-compras-por-atacado.html">Montei um Negócio<span class="sr-only">(atual)</span></a>
+
+          <a class="dropdown-item" href="food-truck-dicas-para-montar-o-seu-proprio-food-truck.html">Food Truck</a>
+
+          <a class="dropdown-item" href="4-dicas-para-voce-dobrar-seu-faturamento.html">Dobrando seu faturamento</a>
+          
+          <a class="dropdown-item" href="aprenda-5-dicas-para-gerenciar-seu-estoque.html">Gerencie seu estoque</a>
+          
+          <a class="dropdown-item" href="a-importancia-da-rede-social-no-comercio.html">Importância da rede social</a>
+          
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="Contato">Contato</a>
+      </li>
+    </ul>
+
+    <form class="form-inline searchbar my-2 my-lg-0" action="busca" method="GET">
+      <input class="form-control mr-sm-2" name="q" type="search" placeholder="Buscar por..." aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+    </form>
+  </div>
+
+</nav>
+
+  <div class="container my-5" style="max-width: 700px">
+    <h1 class="text-center">Montei meu negócio, e agora? O que significa fazer compras por atacado?</h1>
+    <div class="container-fluid my-3">
+      <img class="img-fluid mx-auto d-block" src="http://socialwave-production.s3-sa-east-1.amazonaws.com/feeds/img_headers/000/026/104/medium/gif-duvida-3.gif" alt="Jennifer Aniston na dúvida">
+    </div>
+    <p class="text-justify text-break my-3">
+      Você mercador, que acaba de iniciar seu negócio, uma das primeiras coisas a descobrir é onde você encontrará produtos 
+      para vender. Você pode não perceber isso, mas a maioria dos varejistas não produz e vende suas próprias mercadorias. 
+      Então, onde eles compram seus produtos? É aí que entram os atacadistas. Os atacadistas não são apenas uma grande fonte 
+      de mercadorias, mas à medida que sua empresa cresce e evolui, eles geralmente têm a flexibilidade de ajudá-lo ao longo 
+      do caminho. Isso pode torná-los um verdadeiro parceiro no seu sucesso.
+    </p>
+    <p class="text-justify text-break my-3">
+      Infelizmente, comprar no atacado pode parecer um pouco misterioso quando você está começando. Nesta postagem, trabalharemos 
+      para corrigir isso compartilhando um pouco sobre o que você precisa saber de compras por atacado.
+    </p>
+    <h2 class="text-center">O que significa comprar por atacado?</h2>
+    <p>
+      Compra de varejo e atacado são duas coisas diferentes. Quando você compra mercadorias de um atacadista, está comprando do intermediário 
+      entre sua loja de varejo e o fabricante. Uma compra por atacado é quase sempre feita a granel e, por isso, você paga um 
+      preço com desconto pela compra. Você pode então pegar esses produtos e vendê-los em sua própria loja a um preço mais alto. 
+      Esse preço mais alto é chamado de preço de varejo e é o que os clientes pagam quando fazem compras em sua loja.
+    </p>
+    <p>
+      A diferença entre o varejo e os preços no atacado é chamada de margem. É a quantidade de lucro que um varejista recebe 
+      de uma venda. O preço de varejo normalmente varia entre as empresas, e existem algumas <strong>estratégias de preços 
+      diferentes que podem ser usadas para determinar o melhor preço de varejo para você.</strong><a href="https://www.ecommercebrasil.com.br/artigos/5-estrategias-para-definir-o-preco-de-venda-de-um-produto/"> Clique aqui</a>
+    </p>
+    <h2 class="text-center">Mercador, atenção ao mercado!</h2>
+    <p>
+      Da mesma forma, os preços que você oferece a seus clientes precisam ser consistentes com o mercado em que você está. 
+      Caso contrário, você corre o risco de os clientes não comprarem seus produtos. É fácil para os clientes encontrarem 
+      alternativas on-line ou em outras lojas. O preço é uma das maneiras de se manter competitivo e manter a lealdade do 
+      cliente.
+    </p>
+    <p>
+      O preço também é um fator para os atacadistas, e muitos terão um requisito de pedido mínimo definido antes de você poder 
+      fazer negócios. Um pedido mínimo é a quantidade mínima de produtos que um varejista pode comprar de um atacadista para fazer 
+      negócios. Esses pedidos mínimos permitem que um atacadista atinja suas metas de receita e lucratividade. 
+    </p>
+    <p>
+      Então, fiquem atentos às próximas compras e use a melhor estratégia para manter seu negócio sustentável.
+    </p>
+    <p>
+      Gostou desse conteúdo? Deixe seu e-mail para receber muitas outras dicas de como administrar as compras para seu negócio. 
+    </p>
+    <p>
+      Conteúdo traduzido e adaptado.
+      <br>
+      Fonte: <a href="https://www.ecommercebrasil.com.br/artigos/5-estrategias-para-definir-o-preco-de-venda-de-um-produto/">https://www.ecommercebrasil.com.br/artigos/5-estrategias-para-definir-o-preco-de-venda-de-um-produto/</a>
+    </p>
+    <div class="container-fluid my-3">
+        <img src="../img/compras-por-atacado.png" alt="Compras por atacado" class="img-fluid w-100">
+    </div>
+
+    <a href="https://vejasp.abril.com.br/consumo/atacarejos-compras-supermercados/">https://vejasp.abril.com.br/consumo/atacarejos-compras-supermercados/</a>
+   </div>
+
+  <footer class="container-fluid d-flex flex-row flex-md-column-reverse flex-lg-row justify-content-between" style="background-color: #2a75b6;">
+    <div class="d-flex d-lg-none flex-column flex-md-row justify-content-center justify-content-md-around align-content-center">
+      <a href="index" class="mx-2 my-3">
+        <img class="img-fluid" src="../img/logo-icon.png" style="max-height: 100px;">
+      </a>
+    
+    <div class="d-flex mx-2 my-3">
+      <a href="https://facebook.com/omercadordigital.com.br" target="_blank" class="mr-2">
+        <img class="img-fluid" src="../img/facebook-icon.png" style="max-height: 50px;">
+      </a>
+
+      <a href="https://www.instagram.com/omercadordigital" target="_blank" class="ml-2">
+        <img class="img-fluid" src="../img/Instagram-icon.png" style="max-height: 50px;">
+      </a>
+
+    </div>
+    </div>
+
+    <a href="index" class="mx-2 my-3 d-none d-lg-block">
+        <img class="img-fluid" src="../img/logo-icon.png" style="max-height: 100px;">
+      </a>
+
+  <div class="d-flex flex-column m-2 align-content-center">
+    <h5 class="text-center text-white mb-3">Assine nossa newsletter!</h5>
+
+    <form name="news" class="d-flex flex-column justify-content-start justify-content-md-center flex-md-row " netlify>
+      <div class="form-group mx-2">
+        <label class="sr-only">Nome Completo</label>
+        <input type="text" name="name" placeholder="Nome Completo" class="form-control">
+      </div>
+      <div class="form-group mx-2">
+        <label class="sr-only">Email</label>
+        <input type="email" name="email" placeholder="Seu email" class="form-control">
+      </div>
+      <button type="submit"  class="btn btn-success mx-auto mx-md-0 h-75" data-toggle="modal" target="#newsConfirmation">Enviar</button>
+    </form>
+
+  </div>
+    <div class="d-none d-lg-flex align-self-center mx-2 my-3">
+      <a href="https://facebook.com/omercadordigital.com.br" target="_blank" class="mr-2">
+        <img class="img-fluid" src="../img/facebook-icon.png" style="max-height: 50px;">
+      </a>
+
+      <a href="https://www.instagram.com/omercadordigital" target="_blank" class="ml-2">
+        <img class="img-fluid" src="../img/Instagram-icon.png" style="max-height: 50px;">
+      </a>
+    </div>
+
+  </footer>
+
+  <script async src="https://cse.google.com/cse.js?cx=012227543180749507366:8btrney3ouk"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="../js/js-functions.js"></script>
+</body>
+
+</html>

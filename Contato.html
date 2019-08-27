@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146047385-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag('js', new Date());
+  gtag('config', 'UA-146047385-1');
+</script>
+
+  <title>Mercador Digital</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <div class="modal fade" id="modalNewsletter" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog  modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Assine nossa newsletter!</h5>
+
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <div class="modal-body">
+          <form name="news" action="" class="" netlify>
+            <div class="form-group">
+              <label class="sr-only">Nome Completo</label>
+              <input type="text" name="name" placeholder="Nome Completo" class="form-control">
+            </div>
+
+            <div class="form-group">
+              <label class="sr-only">Email</label>
+              <input type="email" name="email" placeholder="Seu email" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success"  data-toggle="modal" data-target="#formConfirmation">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal fade" id="newsConfirmation" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog  modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Envio Confirmado</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <div class="modal-body">
+          <p>Obrigado por se cadastrar na nossa newsletter!</p>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="contactConfirmation" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog  modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Envio Confirmado</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <div class="modal-body">
+          <p>Obrigado por enviar sua sugestão ou dúvida! Responderemos em breve!</p>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="p-0 container-fluid">
+  <a href="index">
+   <img src="../img/logo.jpg" class="img-fluid">
+  </a>
+</div>
+
+ <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #2a75b6;">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index">Início</a>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Artigos
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="comida-vegana-voce-precisa-ter-no-seu-boteco">Produtos Veganos</a>
+
+          <a class="dropdown-item" href="os-3-maiores-erros-na-hora-escolher-um-fornecedor-para-seu-restaurante">Fornecedor Digital</a>
+
+          <a class="dropdown-item" href="7-ferramentas-digitais-que-vao-turbinar-o-seu-negocio">Ferramentas Digitais</a>
+
+          <a class="dropdown-item" href="você-tem-perdido-clientes-para-as-grandes-redes">Luta pelo Mercado</a>
+
+          <a class="dropdown-item" href="ideias-criativas-de-marketing-para-restaurantes">Marketing para Restaurantes</a>
+
+          <a class="dropdown-item" href="montei-meu-negocio-e-agora-o-que-significa-fazer-compras-por-atacado.html">Montei um Negócio</a>
+
+          <a class="dropdown-item" href="food-truck-dicas-para-montar-o-seu-proprio-food-truck.html">Food Truck</a>
+
+          <a class="dropdown-item" href="4-dicas-para-voce-dobrar-seu-faturamento.html">Dobrando seu faturamento</a>
+          
+          <a class="dropdown-item" href="aprenda-5-dicas-para-gerenciar-seu-estoque.html">Gerencie seu estoque</a>
+          
+          <a class="dropdown-item" href="a-importancia-da-rede-social-no-comercio.html">Importância da rede social</a>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link active" href="Contato">Contato<span class="sr-only">(atual)</span></a>
+      </li>
+    </ul>
+
+    <form class="form-inline searchbar my-2 my-lg-0" action="busca" method="GET">
+      <input class="form-control mr-sm-2" name="q" type="search" placeholder="Buscar por..." aria-label="Search">
+      <button class="btn btn-success my-2 my-sm-0" type="submit">Buscar</button>
+    </form>
+  </div>
+
+</nav>
+  <div class="container my-5" style="max-width: 700px">
+    <br>
+    <h2 class="text-center">O Mercador Digital</h2>
+    <br>
+    <p class="text-justify text-break">Somos O Mercador Digital, o melhor canal de informações para o seu negócio! Ele foi criado para trazer dicas, ferramentas, novidades e muito mais para você empreendedor, futuro empreendedor ou apenas curioso que deseja otimizar de maneira descomplicada e eficaz o seu estabelecimento comercial.</p>
+    <br>
+    <br>
+    <h2 class="text-center my-3">Contato</h2>
+            <form name="contact" action="#" netlify>
+              <div class="form-group">
+                <label>Nome completo:</label>
+                <input type="text" name="name" class="form-control">
+              </div>
+              <div class="form-group">
+                <label>Email:</label>
+                <input type="email" name="email" class="form-control">
+              </div>
+                            
+              <textarea maxlength="500" name="sugestão" placeholder="Deixe sua sugestão" class="form-control"  data-toggle="modal" data-target="#contactConfirmation"></textarea>
+              
+              <button type="submit" class="btn btn-success mt-2">Enviar</button>
+            </form>
+  </div>
+   
+<footer class="container-fluid d-flex flex-row flex-md-column-reverse flex-lg-row justify-content-between" style="background-color: #2a75b6;">
+    <div class="d-flex d-lg-none flex-column flex-md-row justify-content-center justify-content-md-around align-content-center">
+      <a href="index" class="mx-2 my-3">
+        <img class="img-fluid" src="../img/logo-icon.png" style="max-height: 100px;">
+      </a>
+    
+    <div class="d-flex mx-2 my-3">
+      <a href="https://facebook.com/omercadordigital.com.br" target="_blank" class="mr-2">
+        <img class="img-fluid" src="../img/facebook-icon.png" style="max-height: 50px;">
+      </a>
+
+      <a href="https://www.instagram.com/omercadordigital" target="_blank" class="ml-2">
+        <img class="img-fluid" src="../img/Instagram-icon.png" style="max-height: 50px;">
+      </a>
+
+    </div>
+    </div>
+
+    <a href="index" class="mx-2 my-3 d-none d-lg-block">
+        <img class="img-fluid" src="../img/logo-icon.png" style="max-height: 100px;">
+      </a>
+
+  <div class="d-flex flex-column m-2 align-content-center">
+
+    <h5 class="text-center text-white mb-3">Assine nossa newsletter!</h5>
+
+    <form name="news" action="#" class="d-flex flex-column justify-content-start justify-content-md-center flex-md-row " netlify>
+      <div class="form-group mx-2">
+        <label class="sr-only">Nome Completo</label>
+        <input type="text" name="name" placeholder="Nome Completo" class="form-control">
+      </div>
+      <div class="form-group mx-2">
+        <label class="sr-only">Email</label>
+        <input type="email" name="email" placeholder="Seu email" class="form-control">
+      </div>
+      <button type="submit"  class="btn btn-success mx-auto mx-md-0 h-75"  data-toggle="modal" data-target="#newsConfirmation">Enviar</button>
+    </form>
+  </div>
+
+    <div class="d-none d-lg-flex align-self-center mx-2 my-3">
+      <a href="https://facebook.com/omercadordigital.com.br" target="_blank" class="mr-2">
+        <img class="img-fluid" src="../img/facebook-icon.png" style="max-height: 50px;">
+      </a>
+
+      <a href="https://www.instagram.com/omercadordigital" target="_blank" class="ml-2">
+        <img class="img-fluid" src="../img/Instagram-icon.png" style="max-height: 50px;">
+      </a>
+    </div>
+  </footer>
+  
+  <script async src="https://cse.google.com/cse.js?cx=012227543180749507366:8btrney3ouk"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="../js/js-functions.js"></script>
+  
+</body>
+
+</html>

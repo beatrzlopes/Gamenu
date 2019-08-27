@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146047385-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag('js', new Date());
+  gtag('config', 'UA-146047385-1');
+</script>
+  
+  <title>Mercador Digital</title>
+
+  <meta charset="utf-8">
+  <meta name="description" content="Veja aqui algumas dicas para montar seu próprio food truck">
+  <meta name="keywords" content="food truck,dicas,montar">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  
+</head>
+
+<body>
+
+<div class="modal fade" id="modalNewsletter" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog  modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Assine nossa newsletter!</h5>
+
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <div class="modal-body">
+          <form name="news" action="" class="" netlify>
+            <div class="form-group">
+              <label class="sr-only">Nome Completo</label>
+
+              <input type="text" name="name" placeholder="Nome Completo" class="form-control">
+            </div>
+
+            <div class="form-group">
+              <label class="sr-only">Email</label>
+
+              <input type="email" name="email" placeholder="Seu email" class="form-control">
+            </div>
+
+            <button type="submit" class="btn btn-success"  data-toggle="modal" data-target="#formConfirmation">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="newsConfirmation" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog  modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Envio Confirmado</h5>
+
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <div class="modal-body">
+          <p>Obrigado por se cadastrar na nossa newsletter!</p>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="p-0 container-fluid">
+  <a href="index">
+   <img src="../img/logo.jpg" class="img-fluid">
+  </a>
+</div>
+
+ <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #2a75b6;">
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index">Início</a>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Artigos
+        </a>
+
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="comida-vegana-voce-precisa-ter-no-seu-boteco">Produtos Veganos</a>
+
+          <a class="dropdown-item" href="os-3-maiores-erros-na-hora-escolher-um-fornecedor-para-seu-restaurante">Fornecedor Digital</a>
+
+          <a class="dropdown-item" href="7-ferramentas-digitais-que-vao-turbinar-o-seu-negocio">Ferramentas Digitais</a>
+
+          <a class="dropdown-item" href="você-tem-perdido-clientes-para-as-grandes-redes">Luta pelo Mercado</a>
+
+          <a class="dropdown-item" href="ideias-criativas-de-marketing-para-restaurantes">Marketing para Restaurantes</a>
+
+          <a class="dropdown-item" href="montei-meu-negocio-e-agora-o-que-significa-fazer-compras-por-atacado.html">Montei um Negócio</a>
+
+          <a class="dropdown-item active" href="food-truck-dicas-para-montar-o-seu-proprio-food-truck.html">Food Truck<span class="sr-only">(atual)</span></a>
+
+          <a class="dropdown-item" href="4-dicas-para-voce-dobrar-seu-faturamento.html">Dobrando seu faturamento</a>
+          
+          <a class="dropdown-item" href="aprenda-5-dicas-para-gerenciar-seu-estoque.html">Gerencie seu estoque</a>
+          
+          <a class="dropdown-item" href="a-importancia-da-rede-social-no-comercio.html">Importância da rede social</a>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="Contato">Contato</a>
+      </li>
+    </ul>
+
+    <form class="form-inline searchbar my-2 my-lg-0" action="busca" method="GET">
+      <input class="form-control mr-sm-2" name="q" type="search" placeholder="Buscar por..." aria-label="Search">
+
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+    </form>
+  </div>
+
+</nav>
+  <div class="container my-5" style="max-width: 700px">
+    <h1 class="text-center">Food Truck: dicas para montar o seu!</h1>
+    <p class="text-justify text-break my-3">
+      Nos últimos anos, os food trucks viraram uma febre no Brasil, principalmente nos grandes centros urbanos de São Paulo 
+      e Rio de Janeiro. Apesar de recentes em terras brasileiras, o primeiro food truck surgiu em em 1872 nos Estados Unidos 
+      com o intuito de vender comida rápida e barata para trabalhadores de fábricas. Eles carregavam essa fama, de comida de 
+      rua, até que, a crise econômica de 2008 obrigou chefs de luxo a fecharem as portas de seus restaurantes e buscarem alternativas
+       como os food trucks para continuarem a cozinhar. Saiba mais detalhes <a href="https://infood.com.br/um-pouco-da-historia-do-negocio-do-food-truck/">acessando aqui.</a>
+    </p>
+    <div class="container-fluid my-3">
+      <img src="../img/food-truck.jpg" alt="Dicas para montar seu FOOD TRUCK" class="img-fluid w-100">
+    </div>
+    <p class="text-justify text-break my-3">
+      O modelo de negócios chamou a atenção de empreendedores devido ao baixo investimento em comparação à abertura de um estabelecimento em um lugar fixo. 
+      Mas, como qualquer outro negócio, exige pesquisa e planejamento para adaptar o modelo ao orçamento e ao mercado.
+    </p>
+    <p>
+      Se você está pensando em montar um food truck, veja algumas dicas importantes para iniciar o seu negócio.
+    </p>
+    <ol class="my-3">
+      <li class="h2 my-3">Obtenha as licenças necessárias</li>
+      <p class="text-justify text-break">
+        A primeira coisa a ser feita é consultar a legislação para este tipo de negócio em sua cidade, pois os aspectos legais 
+        variam conforme o município. Em São paulo, há uma legislação municipal específica para os food trucks.
+      </p>
+      <li class="h2 my-3">Foco no cardápio</li>
+      <p class="text-justify text-break">
+        O que será servido irá influenciar na estrutura do seu food truck, por isso que esse quesito é um dos primeiros a se pensar. 
+        Tenha em mente, que o espaço disponível para manipulação e conservação de alimentos é pequeno, então, quanto mais simples 
+        de preparar e finalizar o prato, melhor. Lembre-se também que o preparo deve ser rápido e o preço médio dos pratos servidos 
+        está em torno de R$25,00.
+      </p>
+      <li class="h2 my-3">Compra do veículo</li>
+      <p class="text-justify text-break">
+        Você pode comprar uma kombi por cerca de 20 mil reais ou um food truck já preparado por cerca de 50 mil reais. 
+        Mas lembre-se que comprando uma kombi, você terá que prepará-la para se tornar uma cozinha ambulante. 
+        Além disso, a infraestrutura do veículo precisa atender às exigências da ANVISA e também da prefeitura.
+      <p>
+      <li class="h2 my-3">Como gerenciar o estoque</li>
+      <p class="text-justify text-break">
+          Fazer o gerenciamento de estoque de maneira correta é essencial para a saúde financeira das empresas, 
+          pois é um dos principais responsáveis por parcela significativa dos custos operacionais. Quer saber como gerenciar 
+          seu estoque de maneira simples e fácil? Deixe aqui seu e-mail e receba um <strong>infrográfico!</strong>
+      <p>
+    </ol>
+      Gostou desse conteúdo? Deixe seu e-mail para receber muitas outras dicas de como administrar as compras para seu negócio. 
+    </p>
+  </div>
+  <footer class="container-fluid d-flex flex-row flex-md-column-reverse flex-lg-row justify-content-between" style="background-color: #2a75b6;">
+   
+    <div class="d-flex d-lg-none flex-column flex-md-row justify-content-center justify-content-md-around align-content-center">
+      <a href="index" class="mx-2 my-3">
+        <img class="img-fluid" src="../img/logo-icon.png" style="max-height: 100px;">
+      </a>
+    
+    <div class="d-flex mx-2 my-3">
+      <a href="https://facebook.com/omercadordigital.com.br" target="_blank" class="mr-2">
+        <img class="img-fluid" src="../img/facebook-icon.png" style="max-height: 50px;">
+      </a>
+
+      <a href="https://www.instagram.com/omercadordigital" target="_blank" class="ml-2">
+        <img class="img-fluid" src="../img/Instagram-icon.png" style="max-height: 50px;">
+      </a>
+
+    </div>
+    </div>
+
+    <a href="index" class="mx-2 my-3 d-none d-lg-block">
+        <img class="img-fluid" src="../img/logo-icon.png" style="max-height: 100px;">
+      </a>
+
+  <div class="d-flex flex-column m-2 align-content-center">
+
+    <h5 class="text-center text-white mb-3">Assine nossa newsletter!</h5>
+
+    <form name="news" class="d-flex flex-column justify-content-start justify-content-md-center flex-md-row " netlify>
+      <div class="form-group mx-2">
+        <label class="sr-only">Nome Completo</label>
+        <input type="text" name="name" placeholder="Nome Completo" class="form-control">
+      </div>
+      <div class="form-group mx-2">
+        <label class="sr-only">Email</label>
+        <input type="email" name="email" placeholder="Seu email" class="form-control">
+      </div>
+      <button type="submit"  class="btn btn-success mx-auto mx-md-0 h-75" data-toggle="modal" target="#newsConfirmation">Enviar</button>
+    </form>
+  </div>
+
+    <div class="d-none d-lg-flex align-self-center mx-2 my-3">
+      <a href="https://facebook.com/omercadordigital.com.br" target="_blank" class="mr-2">
+        <img class="img-fluid" src="../img/facebook-icon.png" style="max-height: 50px;">
+      </a>
+
+      <a href="https://www.instagram.com/omercadordigital" target="_blank" class="ml-2">
+        <img class="img-fluid" src="../img/Instagram-icon.png" style="max-height: 50px;">
+      </a>
+    </div>
+
+  </footer>
+  <script async src="https://cse.google.com/cse.js?cx=012227543180749507366:8btrney3ouk"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="../js/js-functions"></script>
+</body>
+
+</html>

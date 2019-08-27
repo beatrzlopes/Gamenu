@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146047385-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag('js', new Date());
+  gtag('config', 'UA-146047385-1');
+</script>
+
+  <title>Mercador Digital</title>
+
+  <meta charset="utf-8">
+  <meta name="description" content="Fornecedores é um dos pontos importante em um restaurante, encontre aqui os três principais erros na hora da escolha">
+  <meta name="keywords" content="Fornecedor,restaurante,digital">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+<div class="modal fade" id="modalNewsletter" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog  modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Assine nossa newsletter!</h5>
+
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <div class="modal-body">
+          <form name="news" action="" class="" netlify>
+            <div class="form-group">
+              <label class="sr-only">Nome Completo</label>
+              <input type="text" name="name" placeholder="Nome Completo" class="form-control">
+            </div>
+
+            <div class="form-group">
+              <label class="sr-only">Email</label>
+              <input type="email" name="email" placeholder="Seu email" class="form-control">
+            </div>
+
+            <button type="submit" class="btn btn-success"  data-toggle="modal" data-target="#formConfirmation">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="newsConfirmation" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog  modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Envio Confirmado</h5>
+
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <div class="modal-body">
+          <p>Obrigado por se cadastrar na nossa newsletter!</p>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="p-0 container-fluid">
+  <a href="index">
+   <img src="../img/logo.jpg" class="img-fluid">
+  </a>
+</div>
+
+ <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #2a75b6;">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index">Início</a>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Artigos
+        </a>
+
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="comida-vegana-voce-precisa-ter-no-seu-boteco">Produtos Veganos</a>
+
+          <a class="dropdown-item active" href="os-3-maiores-erros-na-hora-escolher-um-fornecedor-para-seu-restaurante">Fornecedor Digital<span class="sr-only">(atual)</span></a>
+
+          <a class="dropdown-item" href="7-ferramentas-digitais-que-vao-turbinar-o-seu-negocio">Ferramentas Digitais</a>
+
+          <a class="dropdown-item" href="você-tem-perdido-clientes-para-as-grandes-redes">Luta pelo Mercado</a>
+
+          <a class="dropdown-item" href="ideias-criativas-de-marketing-para-restaurantes">Marketing para Restaurantes</a>
+
+          <a class="dropdown-item" href="montei-meu-negocio-e-agora-o-que-significa-fazer-compras-por-atacado.html">Montei um Negócio</a>
+
+          <a class="dropdown-item" href="food-truck-dicas-para-montar-o-seu-proprio-food-truck.html">Food Truck</a>
+
+          <a class="dropdown-item" href="4-dicas-para-voce-dobrar-seu-faturamento.html">Dobrando seu faturamento</a>
+          
+          <a class="dropdown-item" href="aprenda-5-dicas-para-gerenciar-seu-estoque.html">Gerencie seu estoque</a>
+          
+          <a class="dropdown-item" href="a-importancia-da-rede-social-no-comercio.html">Importância da rede social</a>
+        </div>
+
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Contato">Contato</a>
+      </li>
+    </ul>
+
+    <form class="form-inline searchbar my-2 my-lg-0" action="busca" method="GET">
+      <input class="form-control mr-sm-2" name="q" type="search" placeholder="Buscar por..." aria-label="Search">
+      <button class="btn btn-success my-2 my-sm-0" type="submit">Buscar</button>
+    </form>
+  </div>
+
+</nav>
+  <div class="container my-5" style="max-width: 700px">
+    <h1 class="text-center">Os 3 maiores erros na hora de escolher um fornecedor para seu restaurante</h1>
+    <p class="text-justify text-break my-3">
+      Fornecedores é um dos pontos mais delicados na gestão do seu restaurante e com uma boa escolha você pode além de organizar 
+      melhor sua gestão, aumentar seus lucros, reduzir tempo de trabalho entre outra tantas infinitas possibilidades.
+    </p>
+    <p class="text-justify text-break my-3">
+        Você está preparado para essa escolha? Continue acompanhando o texto para descobrir quais 
+        são os 3 principais erros e aprenda com eles.
+    </p>
+    <div class="container-fluid my-3">
+      <img class="img-fluid mx-auto d-block" src="https://media.giphy.com/media/CjmvTCZf2U3p09Cn0h/giphy.gif" alt="Gato colocando óculos com texto escrito I'm ready">
+    </div>
+    <ol class="my-3">
+      <li class="h2 my-3">O principal critério da escolha ser o preço.</li>
+      <p class="text-justify text-break">
+        Economizar é sempre bom, não é? Além do preço, fique atento quais marcas seu fornecedor é parceiro. Um bom fornecedor sempre pensa em 
+        seu restaurante, que você é capaz de fazer uma seleção de produtos exclusivos e de marcas reconhecidas do mercado, então pesquise 
+        quais marcas que se adequa perfeitamente em seu cardápio e não deixe que ele te indique as marcas por causa de um orçamento melhor. 
+        A qualidade da matéria-prima é fundamental para sua oferta gastronômica.
+      </p>
+      <li class="h2 my-3">Não cobrar datas e prazos para a entrega.</li>
+      <p class="text-justify text-break">
+      Na correria do dia a dia, restaurante lotado, o prato do dia sendo requisitado em quase todas as mesas e acaba seu estoque do 
+      produto específico do prato! Como um bom organizador que você é pensa ‘Não era para ter acabado’ , quando você vê o que realmente 
+      aconteceu foi que sua entrega atrasou e irá chegar somente daqui 2 dias. Então não perca mais venda, escolha fornecedores sem 
+      histórico de atraso, que move céus e terras para entregar seus pedidos, fornecedores que têm frota própria e não dependem de 
+      serviços de correios e transportadoras de terceiros.
+      </p>
+      <li class="h2 my-3">Ter vários fornecedores</li>
+      <p class="text-justify text-break">
+        Uma prática feita por donos de restaurante é fazer pesquisa todo mês de fornecedores e passar de atacado em atacado para ver quais 
+        têm os melhores preços e produtos. Além de você estar gastando um tempo precioso você estará enfrentando filas, estressando com 
+        o mal atendimento gastando com o transporte. Então como tempo é dinheiro e estresse faz mal a sua saúde, escolha um fornecedor 
+        que tem uma variedade de produtos, que seus produtos vem direto da  indústria para seu restaurante, assim possibilitando preços 
+        bem melhores,  que tem atendimento online, que você possa fazer seu pedido do seu escritório e que dá descontos para clientes 
+        recorrentes. O mundo online já é realidade no mercado de fornecedores e atacado, 
+        <a href="https://exame.abril.com.br/negocios/gpa-lanca-plataforma-digital-com-entregas-para-atacado-em-ate-72h-em-sp/">clique aqui</a> 
+        e veja essa matéria da Exame sobre o assunto.
+      <p>
+    </ol>
+    <div class="container-fluid my-3">
+      <img src="../img/fornecedor-digital.jpg" alt="Fornecedor digital" class="img-fluid w-100">
+    </div>
+    <p class="text-justify text-break">
+      Em conclusão, os bons fornecedores são aqueles que têm em seus portfolio as melhores marcas, entregue seu produto em dias, 
+      trabalhe diretamente com a indústria de alimentos e que o processo de compra seja o mais simples e prático.
+   </div> 
+
+  <footer class="container-fluid d-flex flex-row flex-md-column-reverse flex-lg-row justify-content-between" style="background-color: #2a75b6;">
+    <div class="d-flex d-lg-none flex-column flex-md-row justify-content-center justify-content-md-around align-content-center">
+      <a href="index" class="mx-2 my-3">
+        <img class="img-fluid" src="../img/logo-icon.png" style="max-height: 100px;">
+      </a>
+
+    <div class="d-flex mx-2 my-3">
+      <a href="https://facebook.com/omercadordigital.com.br" target="_blank" class="mr-2">
+        <img class="img-fluid" src="../img/facebook-icon.png" style="max-height: 50px;">
+      </a>
+
+      <a href="https://www.instagram.com/omercadordigital" target="_blank" class="ml-2">
+        <img class="img-fluid" src="../img/Instagram-icon.png" style="max-height: 50px;">
+      </a>
+    </div>
+    </div>
+
+    <a href="index" class="mx-2 my-3 d-none d-lg-block">
+        <img class="img-fluid" src="../img/logo-icon.png" style="max-height: 100px;">
+      </a>
+
+  <div class="d-flex flex-column m-2 align-content-center">
+    <h5 class="text-center text-white mb-3">Assine nossa newsletter!</h5>
+    <form name="news" class="d-flex flex-column justify-content-start justify-content-md-center flex-md-row " netlify>
+      <div class="form-group mx-2">
+        <label class="sr-only">Nome Completo</label>
+        <input type="text" name="name" placeholder="Nome Completo" class="form-control">
+      </div>
+      <div class="form-group mx-2">
+        <label class="sr-only">Email</label>
+        <input type="email" name="email" placeholder="Seu email" class="form-control">
+      </div>
+      <button type="submit"  class="btn btn-success mx-auto mx-md-0 h-75" data-toggle="modal" target="#newsConfirmation">Enviar</button>
+    </form>
+  </div>
+
+    <div class="d-none d-lg-flex align-self-center mx-2 my-3">
+      <a href="https://facebook.com/omercadordigital.com.br" target="_blank" class="mr-2">
+        <img class="img-fluid" src="../img/facebook-icon.png" style="max-height: 50px;">
+      </a>
+      <a href="https://www.instagram.com/omercadordigital" target="_blank" class="ml-2">
+        <img class="img-fluid" src="../img/Instagram-icon.png" style="max-height: 50px;">
+      </a>
+    </div>
+  </footer>
+    
+  <script async src="https://cse.google.com/cse.js?cx=012227543180749507366:8btrney3ouk"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="../js/js-functions.js"></script>
+  
+</body>
+
+</html>

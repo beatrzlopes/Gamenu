@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146047385-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag('js', new Date());
+  gtag('config', 'UA-146047385-1');
+</script>
+  
+  <title>Mercador Digital</title>
+
+  <meta charset="utf-8">
+  <meta name="description" content="Veja 5 dicas para gerenciar seu estoque da melhor forma!">
+  <meta name="keywords" content="estoque,gerenciar,economizar,atacarejo">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  
+</head>
+
+<body>
+
+<div class="modal fade" id="modalNewsletter" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog  modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Assine nossa newsletter!</h5>
+
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <div class="modal-body">
+          <form name="news" action="" class="" netlify>
+            <div class="form-group">
+              <label class="sr-only">Nome Completo</label>
+
+              <input type="text" name="name" placeholder="Nome Completo" class="form-control">
+            </div>
+
+            <div class="form-group">
+              <label class="sr-only">Email</label>
+
+              <input type="email" name="email" placeholder="Seu email" class="form-control">
+            </div>
+
+            <button type="submit" class="btn btn-success"  data-toggle="modal" data-target="#formConfirmation">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="newsConfirmation" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog  modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Envio Confirmado</h5>
+
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <div class="modal-body">
+          <p>Obrigado por se cadastrar na nossa newsletter!</p>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="p-0 container-fluid">
+  <a href="index">
+   <img src="../img/logo.jpg" class="img-fluid">
+  </a>
+</div>
+
+ <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #2a75b6;">
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index">Início</a>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Artigos
+        </a>
+
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="comida-vegana-voce-precisa-ter-no-seu-boteco">Produtos Veganos</a>
+
+          <a class="dropdown-item" href="os-3-maiores-erros-na-hora-escolher-um-fornecedor-para-seu-restaurante">Fornecedor Digital</a>
+
+          <a class="dropdown-item" href="7-ferramentas-digitais-que-vao-turbinar-o-seu-negocio">Ferramentas Digitais</a>
+
+          <a class="dropdown-item" href="você-tem-perdido-clientes-para-as-grandes-redes">Luta pelo Mercado</a>
+
+          <a class="dropdown-item" href="ideias-criativas-de-marketing-para-restaurantes">Marketing para Restaurantes</a>
+
+          <a class="dropdown-item" href="montei-meu-negocio-e-agora-o-que-significa-fazer-compras-por-atacado.html">Montei um Negócio</a>
+
+          <a class="dropdown-item " href="food-truck-dicas-para-montar-o-seu-proprio-food-truck.html">Food Truck<span class="sr-only">(atual)</span></a>
+
+          <a class="dropdown-item" href="4-dicas-para-voce-dobrar-seu-faturamento.html">Dobrando seu faturamento</a>
+          
+          <a class="dropdown-item active" href="aprenda-5-dicas-para-gerenciar-seu-estoque.html">Gerencie seu estoque</a>
+          
+          <a class="dropdown-item" href="a-importancia-da-rede-social-no-comercio.html">Importância da rede social</a>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="Contato">Contato</a>
+      </li>
+    </ul>
+
+    <form class="form-inline searchbar my-2 my-lg-0" action="busca" method="GET">
+      <input class="form-control mr-sm-2" name="q" type="search" placeholder="Buscar por..." aria-label="Search">
+
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+    </form>
+  </div>
+
+</nav>
+  <div class="container my-5" style="max-width: 700px">
+    <h1 class="text-center">Aprenda 5 dicas para gerenciar seu estoque!</h1>
+    <p class="text-justify text-break my-3">
+  Pois é meu amigo empreendedor, ter acesso a internet é tudo, não é mesmo! Mas as vezes são tantos conteúdos interessantes que não sabemos por onde começar, não é mesmo?
+Se você precisa de uma mãozinha para rentabilizar seu negócio com dicas práticas e rápidas que farão diferença!!!
+Habemus <strong>O Mercador Digital</strong>. Você achou o canal certo!
+    </p>
+    
+    
+    <div class="container-fluid my-3">
+      <img src="../img/chamine.gif" alt="Foto de uma chaminé com fumaça branca" class="img-fluid w-100">
+    </div>
+    <p class="text-justify text-break my-3">
+     E para começar e mostrar que estamos aqui para fazer acontecer junto com você, nossa dica esperta de hoje é sobre Gestão de estoque:
+    </p>
+    
+    <h2>Confira o que fica proibido na gestão de estoque para conseguir manter uma boa logística.</h2>
+    
+    
+    <p>
+     Trabalhando por muitos anos como executivo no varejo de moda, descobri a principal questão em uma economia apertada: saber como equilibrar o comportamento do consumidor e o estoque. Para se manter de acordo com as exigências do cliente e <a href="https://endeavor.org.br/armadilhas-na-tomada-de-decisao-fique-atento/">conduzir a tomada de decisão para uma operação eficiente</a>, qualquer empresa voltada para a venda de bens precisa se preocupar com uma boa gestão de estoque. O sucesso começa aqui.
+    </p>
+    
+      <p>
+     Está mais do que na hora de remapear a estratégia e direcionar toda a cadeia para giros que considerem aspectos previsíveis, como as sazonalidades, as novas exigências do mercado e o humor do brasileiro <a href="https://endeavor.org.br/webinar-como-desenvolver-sua-estrategia-de-crescimento-mesmo-em-momentos-de-crise/">diante das incertezas da economia</a>. Sim, sei que não é nada fácil, mas separei aqui os cinco pecados básicos da <strong>gestão de estoque</strong>, que, se considerados constantemente, ajudam muito a otimizar recursos:
+    </p>
+    
+    <h2>Os pecados básicos da Gestão de Estoque</h2>
+   
+   
+   <ol class="my-3">
+      
+      <li class="h3 my-3"><h3>Perder de vista os 20% dos produtos que representam 80% da sua venda</h3></li>
+      <p class="text-justify text-break">
+Esse erro é fatal! A análise periódica da demanda deve garantir que você tenha sempre em estoque aqueles que são os carros-chefes de sua empresa e <a href="https://endeavor.org.br/crescimento/">impulsionam o crescimento</a>.
+      </p>
+     
+     <li class="h3 my-3"><h3>Perder o pico da sazonalidade</h3></li>
+      <p class="text-justify text-break">
+   A culpa dessa perda, em geral, infelizmente ainda recai sobre atrasos do fornecedor, mas muitos erros ocorrem no processo de compras. Monitore constantemente sua operação.
+      </p>
+      
+      <li class="h3 my-3"><h3>Negociar prazos e descontos com fornecedores sem prever atrasos e reajustes</h3></li>
+      <p class="text-justify text-break">
+Ainda existe no varejo a situação de se mentir para o papel, o controle das organizações. Quando a empresa faz o pedido  fora do timing ou em cima da hora, cria-se um ciclo vicioso de fingimentos: a empresa finge que pediu a tempo, o industrial finge que vai entregar e você e <a href="https://endeavor.org.br/pessoas/">as pessoas da empresa</a> fingem que vão vender. Esse cenário impede que a cadeia de confiança esteja estabelecida e o risco de haver ruptura de mercadorias (quando falta o produto na loja no ato da compra) fica muito alto. Em geral, esse número, hoje, gira em torno de 20%.
+      <p>
+      
+      <li class="h3 my-3"><h3>Não alimentar continuamente as lojas com itens básicos</h3></li>
+      <p class="text-justify text-break">
+   Eles podem não ser o motivo pelo qual a loja existe, mas sempre vendem. No mercado de moda, por exemplo, o consumidor sempre estará de olho numa boa camiseta branca, na legging preta, no short jeans.
+      <p>
+      
+        <li class="h3 my-3"><h3>Não se antecipar</h3></li>
+      <p class="text-justify text-break">
+Não improvise na <strong>gestão de estoque</strong>, nem espere as coisas acontecerem! Seja analítico e corajoso para cortar o custo desnecessário sempre, que não agrega valor ao negócio. E tenha na gaveta mental estratégias de reação rápidas para estar  à frente. Varejo é detalhe.
+
+Quer saber mais sobre o assunto? Assista a um super vídeo do parceiro Sebrae: <br>
+        <a href="https://www.youtube.com/watch?v=_aQf-tKNrTs&feature=youtu.be">https://www.youtube.com/watch?v=_aQf-tKNrTs&feature=youtu.be</a>
+
+     <p class="text-justify text-break">
+     Ref. <a href="https://endeavor.org.br/operacoes/gestao-de-estoque/">https://endeavor.org.br/operacoes/gestao-de-estoque/</a></p>
+      
+      
+    </ol>
+      
+      Gostou desse conteúdo? Deixe seu e-mail para receber muitas outras dicas de como administrar as compras para seu negócio. 
+    </p>
+  </div>
+  <footer class="container-fluid d-flex flex-row flex-md-column-reverse flex-lg-row justify-content-between" style="background-color: #2a75b6;">
+   
+    <div class="d-flex d-lg-none flex-column flex-md-row justify-content-center justify-content-md-around align-content-center">
+      <a href="index" class="mx-2 my-3">
+        <img class="img-fluid" src="../img/logo-icon.png" style="max-height: 100px;">
+      </a>
+    
+    <div class="d-flex mx-2 my-3">
+      <a href="https://facebook.com/omercadordigital.com.br" target="_blank" class="mr-2">
+        <img class="img-fluid" src="../img/facebook-icon.png" style="max-height: 50px;">
+      </a>
+
+      <a href="https://www.instagram.com/omercadordigital" target="_blank" class="ml-2">
+        <img class="img-fluid" src="../img/Instagram-icon.png" style="max-height: 50px;">
+      </a>
+
+    </div>
+    </div>
+
+    <a href="index" class="mx-2 my-3 d-none d-lg-block">
+        <img class="img-fluid" src="../img/logo-icon.png" style="max-height: 100px;">
+      </a>
+
+  <div class="d-flex flex-column m-2 align-content-center">
+
+    <h5 class="text-center text-white mb-3">Assine nossa newsletter!</h5>
+
+    <form name="news" class="d-flex flex-column justify-content-start justify-content-md-center flex-md-row " netlify>
+      <div class="form-group mx-2">
+        <label class="sr-only">Nome Completo</label>
+        <input type="text" name="name" placeholder="Nome Completo" class="form-control">
+      </div>
+      <div class="form-group mx-2">
+        <label class="sr-only">Email</label>
+        <input type="email" name="email" placeholder="Seu email" class="form-control">
+      </div>
+      <button type="submit"  class="btn btn-success mx-auto mx-md-0 h-75" data-toggle="modal" target="#newsConfirmation">Enviar</button>
+    </form>
+  </div>
+
+    <div class="d-none d-lg-flex align-self-center mx-2 my-3">
+      <a href="https://facebook.com/omercadordigital.com.br" target="_blank" class="mr-2">
+        <img class="img-fluid" src="../img/facebook-icon.png" style="max-height: 50px;">
+      </a>
+
+      <a href="https://www.instagram.com/omercadordigital" target="_blank" class="ml-2">
+        <img class="img-fluid" src="../img/Instagram-icon.png" style="max-height: 50px;">
+      </a>
+    </div>
+
+  </footer>
+  <script async src="https://cse.google.com/cse.js?cx=012227543180749507366:8btrney3ouk"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="../js/js-functions"></script>
+</body>
+
+</html>
