@@ -157,16 +157,13 @@ p {
 }
 
 .conteiner{
-   
-   max-width: 90%;
+   border: 1px solid black;
+   max-width: 50%;
    text-align: center;
    background: white;
    
    font-size: 12px;
-   padding-left: 150px;
-   box-sizing: border-box;
+   padding-left: 10px;
+   
 }
 
-#sympla-widget-626655{
-   align-items: center;
-}
